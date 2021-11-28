@@ -10,10 +10,10 @@ import numpy as np
 @st.cache
 def load_data():
     yieldAreaColumns = ["Crop","p2006","p2007","p2008","p2009","p2010","area2006","area2007","area2008","area2009","area2010","yield2006","yield2007","yield2008","yield2009","yield2010"]
-    yieldAreadf = pd.read_csv("datafile (2).csv",names=yieldAreaColumns)
+    yieldAreadf = pd.read_csv("input/datafile (2).csv",names=yieldAreaColumns)
     
     barNames = ["Crop","y2005","y2006","y2007","y2008","y2009","y2010","y2011","y2012"]
-    barRawdf = pd.read_csv("datafile.csv",names=barNames)
+    barRawdf = pd.read_csv("input/datafile.csv",names=barNames)
     
     return yieldAreadf,barRawdf
     
