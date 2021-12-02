@@ -123,27 +123,27 @@ if st.button('Submit'):
             barFlag = 1
     
     ugraphdf = pd.DataFrame(uyieldData,uareaData)
-    st.write(f"Area of {user_crop} crop cultivated  vs Yield produced")
+    st.write(f"### Yield of {user_crop}  vs Area cultivated")
     st.line_chart(ugraphdf)
     
     mgraphdf = pd.DataFrame(myieldData,mareaData)
-    st.write(f"Area of {ans} crop cultivated  vs Yield produced")
+    st.write(f"### Yield of {ans}  vs Area cultivated")
     st.line_chart(mgraphdf)
     
     uproddf = pd.DataFrame(uprodData,[2006,2007,2008,2009,2010])
-    st.write(f"Production of {user_crop} from 2006 to 2010")
+    st.write(f"### Production of {user_crop} from 2006 to 2010")
     st.bar_chart(uproddf)
     
     mproddf = pd.DataFrame(mprodData,[2006,2007,2008,2009,2010])
-    st.write(f"Production of {ans} crop from 2006 to 2010")
+    st.write(f"### Production of {ans} crop from 2006 to 2010")
     st.bar_chart(mproddf)
     
     
     if(barFlag == 1):
-        st.write(f"Yield of {user_crop} crop from 2005 to 2012")
+        st.write(f"### Yield of {user_crop} crop from 2005 to 2012")
         ubarDf = pd.DataFrame(ubarData,[2005,2006,2007,2008,2009,2010,2011,2012])
         st.bar_chart(ubarDf)
-        st.write(f"Yield of {ans} crop from 2005 to 2012")
+        st.write(f"### Yield of {ans} crop from 2005 to 2012")
         mbarDf = pd.DataFrame(mbarData,[2005,2006,2007,2008,2009,2010,2011,2012])
         st.bar_chart(mbarDf)
         
