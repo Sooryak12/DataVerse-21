@@ -42,7 +42,7 @@ state = st.selectbox(
                 "Daman and Diu","Delhi","Lakshadweep","Puducherry"))
 
 
-user_crop=st.selectbox("Pick your preferred crop",yieldAreadf.Crop)
+user_crop=st.selectbox("Pick your Preferred crop",yieldAreadf.Crop)
 
 
 
