@@ -16,7 +16,7 @@ def load_data():
     barRawdf = pd.read_csv("input/datafile.csv",names=barNames)
     
     sColumn = ["state","district","year", "season", "crop", "area", "production"]
-    stateDatadf = pd.read_csv("AgrcultureDataset.csv", names=sColumn,dtype='unicode')
+    stateDatadf = pd.read_csv("input/AgrcultureDataset.csv", names=sColumn,dtype='unicode')
     
     return yieldAreadf,barRawdf,stateDatadf
     
