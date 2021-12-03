@@ -200,14 +200,14 @@ if st.button('Submit'):
 
 
     if(usFlag == 1):
-        st.write(f"### Production of {user_crop} in {state}")
+        st.write(f"### Production of {user_crop} in {state} at {district}")
         ustatedf = pd.DataFrame(uprod,uyears)
         st.bar_chart(ustatedf)
     else:
         st.write(f"### Data for production of {user_crop} in {state} at {district} is unavailable , {name} .")
     
     if(msFlag == 1):
-        st.write(f"### Production of {ml_crop} in {state}")
+        st.write(f"### Production of {ml_crop} in {state} at {district}")
         mstatedf = pd.DataFrame(mprod,myears)
         st.bar_chart(mstatedf)
     else:
