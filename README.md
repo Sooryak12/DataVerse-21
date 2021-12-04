@@ -1,4 +1,9 @@
-# DataVerse-21 Submission
+# Your Agri Companion
+## Winning Solution of DataVerse'21 conducted byt IETE-VIT and IEEE-WIE ,VIT Vellore.
+
+![Promo-Facebook-Facebook cover photo](https://user-images.githubusercontent.com/55055042/144709226-7bc3e9bc-be57-4ebf-a358-3f40caef655e.jpeg)
+
+
 
 ## Using a Machine Learning Model to identify the optimal crop to grow, based on empirical data
 
@@ -6,6 +11,15 @@ An unbiased analysis based on information regarding factors such as the chemical
 valuable asset, allowing farmers to make the right decisions to maximize their economic gain, as well as providing governing bodies with
 the foresight required to incentvize farmers to grow certain crops, which can minimize the chance of overload on the food distribution
 systems in the event of a natural calamity(eg: Famine).
+
+
+### Demonstration
+Our project is currently hosted on Streamlit, for purposes of demonstration: 
+[Go to Demo](https://share.streamlit.io/sooryak12/dataverse-21/main/streamfile.py)
+
+![gitdataver](https://user-images.githubusercontent.com/55055042/144709407-7d0696e9-ab77-4e7e-86b2-3098497668e0.png)
+
+
 
 ### Implementation
 
@@ -62,7 +76,5 @@ Our solution was built using:
 - [Shap](https://github.com/slundberg/shap)
 - [Streamlit](https://streamlit.io/)
 
-### Demonstration
-Our project is currently hosted on Streamlit, for purposes of demonstration: 
-[Go to Demo](https://share.streamlit.io/sooryak12/dataverse-21/main/streamfile.py)
+
  
