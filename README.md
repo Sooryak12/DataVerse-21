@@ -21,6 +21,7 @@ Our project is currently hosted on Streamlit, for purposes of demonstration:
 
 
 
+
 ### Implementation
 
 For selecting the best crop using the data we had to train our model, the Random Forest Approach stood out due to its excellent
